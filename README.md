@@ -1,10 +1,10 @@
-# A White-Box Adversarial Audio Simulator for Audio Classification
+# Inaudible Evasion: A White-Box Adversarial Audio Simulator for Audio Classification
 
 ## Overview
 
-This project presents a white-box adversarial attack framework for environmental sound classification systems. It investigates the vulnerability of deep learning models to imperceptible adversarial perturbations and evaluates the impact of such attacks on audio classification performance.
+Inaudible Evasion is a published research project that evaluates the robustness of CNN-based environmental sound classifiers against FGSM-generated white-box adversarial attacks using the UrbanSound8K dataset.
 
-The framework implements adversarial machine learning techniques, including Fast Gradient Sign Method (FGSM), and evaluates model robustness on the UrbanSound8K dataset.
+The project implements gradient-based adversarial attack techniques to generate imperceptible perturbations that cause audio classification models to misclassify environmental sounds while maintaining perceptual similarity to the original audio. Through extensive experimentation, the framework demonstrates how deep learning systems can be vulnerable to carefully crafted adversarial examples, highlighting important security concerns in real-world AI applications.
 
 ---
 
@@ -17,10 +17,6 @@ The framework implements adversarial machine learning techniques, including Fast
 Published in *JETIR (Journal of Emerging Technologies and Innovative Research), Volume 12, Issue 11, November 2025.*
 
 Paper Link: **https://www.jetir.org/papers/JETIR2511538.pdf**
-
-### Abstract
-
-This work investigates the robustness of deep learning-based environmental sound classification systems against white-box adversarial attacks. The framework generates carefully crafted perturbations using gradient-based methods and evaluates their impact on audio classification performance. Experimental results demonstrate that imperceptible perturbations can significantly degrade classifier accuracy, highlighting critical security challenges in real-world AI systems.
 
 ---
 
