@@ -1,0 +1,28 @@
+# Python virtual environment
+venv/
+
+# Dataset
+data/
+
+# Generated attack results
+attack_outputs/
+attack_outputs_masked/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Numpy outputs
+*.npy
+
+# Optional model files
+*.pth
+*.pt
+*.h5
+
+# OS files
+.DS_Store
+Thumbs.db
